@@ -151,8 +151,9 @@
   .mob-nav {
     display: flex;
     align-items: center;
+    width: 411.33px;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0px 0px 0px 20px;
     height: 70px;
   }
 
@@ -160,7 +161,7 @@
     height: 22px;
   }
   .img1{
-    width: 100%;
+    width: 411.33px;
     height: 310px;
   }
 
