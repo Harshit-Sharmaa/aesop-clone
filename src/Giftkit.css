@@ -1,0 +1,39 @@
+.gift{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.sgk{
+    margin-left: 50px;
+}
+.sgk h1{
+  font-family: "Zapf Humanist", serif;
+  margin: 0 0 30px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.33;
+  width: 300px;
+}
+.para{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.para p{
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+}
+@media only screen and (max-width: 639px) {
+    .gift{
+        display: flex;
+        flex-direction: column;
+    }
+    .sgk{
+        margin-left: 25px;
+    }
+    .para{
+        padding-left: 25px;
+        padding-right: 20px;
+    }
+}
